@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Smart Classroom Availability System — Real-time room tracking for VNR VJIET" />
+  <title>Smart Classroom Availability System</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a class="navbar-brand" href="#dashboard">
+        <span class="icon">🏫</span> Smart Classroom
+      </a>
+      <div class="nav-links">
+        <a class="nav-link active" data-page="dashboard" href="#dashboard">📊 Dashboard</a>
+        <a class="nav-link" data-page="schedule" href="#schedule">📅 Schedule</a>
+        <a class="nav-link" data-page="report" href="#report">📝 Report</a>
+        <a class="nav-link" data-page="admin" href="#admin">⚙️ Admin</a>
+        <a class="nav-link" data-page="stats" href="#stats">📈 Stats</a>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main" id="app-main">
+      <!-- Rendered by JS -->
+    </main>
+
+    <!-- Room Detail Modal -->
+    <div class="modal-overlay" id="room-modal">
+      <div class="modal" id="room-modal-content"></div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toast-container"></div>
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

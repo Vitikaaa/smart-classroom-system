@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+smart_classroom.db
+.env
